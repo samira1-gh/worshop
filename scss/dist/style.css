@@ -36,6 +36,9 @@ section .parti2 {
 section .parti2 h5 {
   color: gray;
 }
+section .parti2__part__img {
+  border-radius: 50%;
+}
 section .parti2__part__h1 {
   margin: 10px;
 }

@@ -1,0 +1,81 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+body {
+  background-color: #e6e6e6;
+  font-family: "Open Sans", sans-serif;
+}
+
+section .parti1 {
+  padding-top: 67px;
+  text-align: center;
+}
+section .parti1__ligne {
+  width: 89px;
+  height: 2px;
+  margin-left: 47%;
+  color: orange;
+  background-color: orange;
+  border: none;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+section .parti1 h5 {
+  color: #B1B1B1;
+}
+section .parti2 {
+  background-color: #ffff;
+  display: flex;
+  justify-content: space-around;
+  width: 803px;
+  height: 254px;
+  margin: auto;
+  margin-top: 7%;
+  padding-top: 57px;
+  box-shadow: 0px 3px 7px 3px #c5c5c5;
+}
+section .parti2 h5 {
+  color: #B1B1B1;
+}
+section .parti2__part__h1 {
+  margin: 10px;
+}
+section .parti2__part__ligne {
+  width: 89px;
+  height: 2px;
+  color: orange;
+  background-color: orange;
+  border: none;
+}
+section .parti2 p {
+  text-align: center;
+}
+section .parti2 hr {
+  margin-top: 10px;
+  margin-left: 12px;
+  width: 45px;
+}
+
+@media (max-width: 576px) {
+  section .parti1__ligne {
+    margin-left: 221px;
+  }
+  section .parti2 {
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+    height: 500px;
+  }
+  section .parti2__part {
+    display: flex;
+    justify-content: center;
+  }
+  section .parti2 hr {
+    margin: 13px;
+  }
+  section .parti2 p {
+    margin-bottom: 10px;
+  }
+}
